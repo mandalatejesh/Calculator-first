@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div id="body-calc">
+      <h3 id="hist">0</h3>
+      <h3 id="expression" style="color: white">0</h3>
+      <button id="one" onclick="one()">1</button>
+      <button id="two" onclick="two()">2</button>
+      <button id="three" onclick="three()">3</button><br />
+      <button id="four" onclick="four()">4</button>
+      <button id="five" onclick="five()">5</button>
+      <button id="six" onclick="six()">6</button><br />
+      <button id="seven" onclick="seven()">7</button>
+      <button id="eight" onclick="eight()">8</button>
+      <button id="nine" onclick="nine()">9</button><br />
+
+      <button id="add" onclick="add()">+</button>
+      <button id="zero" onclick="zero()">0</button>
+      <button id="sub" onclick="sub()">-</button><br />
+      <button id="mult" onclick="mult()">*</button>
+      <button id="div" onclick="div()">/</button>
+      <button id="exe" onclick="exe()">=</button><br />
+      <button id="clear" onclick="clearFunc()">Clear</button>
+    </div>
+    <div id="flow">.</div>
+    <br />
+    <br />
+    <br />
+    <button id="inc" onclick="myMove()">play</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
