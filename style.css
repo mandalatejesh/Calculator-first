@@ -14,13 +14,14 @@ body {
   display: inline-block;
   border-radius: 10px;
   border: 5px solid white;
-  width: 50vw;
+  width: 15vw;
 }
 h1 {
   color: white;
 }
 #notice{
   color: white;
+  font-weight: 200;
 }
 
 button {
@@ -30,7 +31,7 @@ button {
   padding-bottom: 5px;
   margin-top: 2px;
   margin-bottom: 2px;
-  font-size: medium;
+  font-size: x-large;
   background-color: #e0ff4f;
   color: black;
   display: inline-table;
