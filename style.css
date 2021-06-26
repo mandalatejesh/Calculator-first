@@ -19,6 +19,9 @@ body {
 h1 {
   color: white;
 }
+#notice{
+  color: white;
+}
 
 button {
   padding-left: 2px;
